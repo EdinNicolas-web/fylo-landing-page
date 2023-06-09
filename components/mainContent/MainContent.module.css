@@ -1,0 +1,42 @@
+.mainContainer {
+  background-color: #191e2a;
+  padding-bottom: 4rem;
+}
+
+.imageStart {
+  width: 80%;
+  height: 70%;
+  display: block;
+  margin: 0 auto;
+}
+
+.mainContainer h4 {
+  color: white;
+  font-weight: 700;
+  font-size: 1.5rem;
+  padding-left: 2rem;
+  padding-right: 1.5rem;
+}
+
+.mainContainer p {
+  color: white;
+  font-size: 1.15rem;
+  padding-left: 2rem;
+  padding-right: 1.5rem;
+  line-height: 1.5;
+}
+
+.buttonLink {
+  border-bottom: 1px solid hsl(176, 68%, 64%);
+  margin-left: 2rem;
+  width: 12rem;
+  padding-bottom: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.labelLink {
+  color: hsl(176, 68%, 64%);
+}
