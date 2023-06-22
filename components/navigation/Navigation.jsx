@@ -9,8 +9,8 @@ export default function Navigation() {
         <li>
           <Image
             src={require("../../assets/logo.svg")}
-            width={130}
-            height={40}
+            width={100}
+            height={30}
           />
         </li>
         <ul className={styles.menuItems}>

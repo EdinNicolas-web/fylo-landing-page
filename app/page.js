@@ -1,3 +1,5 @@
+import AccessForm from "@/components/accessForm/AccessForm";
+import Footer from "@/components/footer/Footer";
 import Header from "@/components/header/Header";
 import MainContent from "@/components/mainContent/MainContent";
 import Navigation from "@/components/navigation/Navigation";
@@ -11,7 +13,11 @@ export default function Home() {
         <Header />
       </header>
       <MainContent />
-      <Testimonials />
+      <section style={{ position: "relative" }}>
+        <Testimonials />
+        <AccessForm />
+        <Footer />
+      </section>
     </main>
   );
 }
